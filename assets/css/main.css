@@ -1273,7 +1273,6 @@ tr,td,th {
 .masthead__menu-item--lg {
     padding-right: 2em;
     font-weight: 700;
-
 }
 
 .breadcrumbs {
@@ -1470,7 +1469,7 @@ tr,td,th {
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: #7a8288;
+    color: rgb(16, 80, 12);;
     text-decoration: none
 }
 
@@ -1485,7 +1484,7 @@ tr,td,th {
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: rgb(16, 80, 12);;
+    background-color: rgb(16, 80, 12);
     color: #fff;
     cursor: pointer
 }
@@ -1715,7 +1714,7 @@ tr,td,th {
     clear: both;
     position: absolute;
     bottom: 0em;
-    height: auto;
+    height: 80px;
     margin-top: 3em;
     color: #ffffff;
     -webkit-animation: intro 0.3s both;
