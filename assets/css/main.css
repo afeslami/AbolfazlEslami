@@ -3288,7 +3288,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .author__name {
-        margin-top:10px;
+        margin-top:0px;
         margin-bottom: 10px
     }
 }
@@ -3304,7 +3304,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .author__bio {
-        margin-top:10px;
+        margin-top:0px;
         margin-bottom: 20px
     }
 }
