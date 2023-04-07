@@ -1245,8 +1245,8 @@ tr,td,th {
 
 @media (min-width: 80em) {
     .masthead__inner-wrap {
-        width: 100%;
-        max-width:1490px
+        width: 120%;
+        max-width:1350px
     }
 }
 
@@ -1266,14 +1266,15 @@ tr,td,th {
 }
 
 .masthead__menu-item {
+    position: center;
     display: block;
     list-style-type: none;
     white-space: nowrap
 }
 
 .masthead__menu-item--lg {
-    padding-right: 2em;
-    font-weight: 700;
+    padding-right: 0em;
+    font-weight: 900;
 }
 
 .breadcrumbs {
