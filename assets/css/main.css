@@ -1213,7 +1213,8 @@ tr,td,th {
 }
 
 .masthead {
-    position: relative;
+    position: center;
+    text-align: center; /* Ensure text is centered */
     border-bottom: 1px solid #f2f3f3;
     -webkit-animation: intro 0.3s both;
     animation: intro 0.3s both;
@@ -1230,6 +1231,7 @@ tr,td,th {
     padding: 1em 1em 1em;
     font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif
 }
+
 
 .masthead__inner-wrap:after {
     content: " ";
