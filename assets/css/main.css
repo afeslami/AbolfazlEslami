@@ -4,7 +4,9 @@ a:focus {
     outline-offset: -2px
 }
 
-*,*:before,*:after {
+*,
+*:before,
+*:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box
@@ -20,7 +22,7 @@ html {
 
 @media (min-width: 48em) {
     html {
-        font-size:18px
+        font-size: 18px
     }
 }
 
@@ -38,14 +40,27 @@ body {
     background: #000
 }
 
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
     display: block
 }
 
-audio,canvas,video {
+audio,
+canvas,
+video {
     display: inline-block;
     *display: inline;
-    *zoom:1}
+    *zoom: 1
+}
 
 audio:not([controls]) {
     display: none
@@ -55,11 +70,13 @@ a {
     color: #10500c;
 }
 
-a:hover,a:active {
+a:hover,
+a:active {
     outline: 0
 }
 
-sub,sup {
+sub,
+sup {
     position: relative;
     font-size: 75%;
     line-height: 0;
@@ -83,32 +100,48 @@ img {
     -ms-interpolation-mode: bicubic
 }
 
-#map_canvas img,.google-maps img {
+#map_canvas img,
+.google-maps img {
     max-width: none
 }
 
-button,input,select,textarea {
+button,
+input,
+select,
+textarea {
     margin: 0;
     font-size: 100%;
     vertical-align: middle
 }
 
-button,input {
+button,
+input {
     *overflow: visible;
     line-height: normal
 }
 
-button::-moz-focus-inner,input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
     padding: 0;
     border: 0
 }
 
-button,html input[type="button"],input[type="reset"],input[type="submit"] {
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer
 }
 
-label,select,button,input[type="button"],input[type="reset"],input[type="submit"],input[type="radio"],input[type="checkbox"] {
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
     cursor: pointer
 }
 
@@ -117,7 +150,8 @@ input[type="search"] {
     -webkit-appearance: textfield
 }
 
-input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button {
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none
 }
 
@@ -136,7 +170,7 @@ body {
     padding: 0;
     padding-bottom: 9em;
     color: #313436;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     line-height: 1.5
 }
 
@@ -144,10 +178,15 @@ body.overflow--hidden {
     overflow: hidden
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 2em 0 0.5em;
     line-height: 1.2;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-weight: bold
 }
 
@@ -176,7 +215,8 @@ h6 {
     font-size: .75em
 }
 
-small,.small {
+small,
+.small {
     font-size: .75em
 }
 
@@ -184,12 +224,14 @@ p {
     margin-bottom: 1.3em
 }
 
-u,ins {
+u,
+ins {
     text-decoration: none;
     border-bottom: 1px solid #313436
 }
 
-u a,ins a {
+u a,
+ins a {
     color: inherit
 }
 
@@ -197,12 +239,21 @@ del a {
     color: inherit
 }
 
-p,pre,blockquote,ul,ol,dl,figure,table,fieldset {
+p,
+pre,
+blockquote,
+ul,
+ol,
+dl,
+figure,
+table,
+fieldset {
     orphans: 3;
     widows: 3
 }
 
-abbr[title],abbr[data-original-title] {
+abbr[title],
+abbr[data-original-title] {
     text-decoration: none;
     cursor: help;
     border-bottom: 1px dotted rgb(16, 80, 12)
@@ -225,29 +276,47 @@ blockquote cite:before {
     padding-right: 5px
 }
 
-a:hover,a:active {
+a:hover,
+a:active {
     outline: 0
 }
 
-tt,code,kbd,samp,pre {
-    font-family: Monaco,Consolas,"Lucida Console",monospace
+tt,
+code,
+kbd,
+samp,
+pre {
+    font-family: Monaco, Consolas, "Lucida Console", monospace
 }
 
 pre {
     overflow-x: auto
 }
 
-p>code,a>code,li>code,figcaption>code,td>code {
+p>code,
+a>code,
+li>code,
+figcaption>code,
+td>code {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     font-size: .75em;
     background: #fafafa;
     border: 1px solid #f2f3f3;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.125)
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125)
 }
 
-p>code:before,p>code:after,a>code:before,a>code:after,li>code:before,li>code:after,figcaption>code:before,figcaption>code:after,td>code:before,td>code:after {
+p>code:before,
+p>code:after,
+a>code:before,
+a>code:after,
+li>code:before,
+li>code:after,
+figcaption>code:before,
+figcaption>code:after,
+td>code:before,
+td>code:after {
     letter-spacing: -0.2em;
     content: "\00a0"
 }
@@ -259,11 +328,13 @@ hr {
     border-top: 1px solid #f2f3f3
 }
 
-ul li,ol li {
+ul li,
+ol li {
     margin-bottom: 0.5em
 }
 
-li ul,li ol {
+li ul,
+li ol {
     margin-top: 0.5em
 }
 
@@ -278,7 +349,9 @@ figure {
     margin: 2em 0
 }
 
-figure img,figure iframe,figure .fluid-width-video-wrapper {
+figure img,
+figure iframe,
+figure .fluid-width-video-wrapper {
     margin-bottom: 1em
 }
 
@@ -294,8 +367,10 @@ figure>a {
 }
 
 @media (min-width: 37.5em) {
-    figure.half>a,figure.half>img {
-        width:calc(50% - 0.5em)
+
+    figure.half>a,
+    figure.half>img {
+        width: calc(50% - 0.5em)
     }
 }
 
@@ -304,8 +379,10 @@ figure.half figcaption {
 }
 
 @media (min-width: 37.5em) {
-    figure.third>a,figure.third>img {
-        width:calc(33.3333% - 0.5em)
+
+    figure.third>a,
+    figure.third>img {
+        width: calc(33.3333% - 0.5em)
     }
 }
 
@@ -316,7 +393,7 @@ figure.third figcaption {
 figcaption {
     margin-bottom: 0.5em;
     color: #656768;
-    font-family: Georgia,Times,serif;
+    font-family: Georgia, Times, serif;
     font-size: .75em
 }
 
@@ -350,15 +427,39 @@ nav a {
     text-decoration: none
 }
 
-nav ul li,nav ol li {
+nav ul li,
+nav ol li {
     margin-bottom: 0
 }
 
-nav li ul,nav li ol {
+nav li ul,
+nav li ol {
     margin-top: 0
 }
 
-b,i,strong,em,blockquote,p,q,span,figure,img,h1,h2,header,input,a,tr,td,form button,input[type="submit"],.btn,#goog-wm-sb,.highlight,.archive__item-teaser {
+b,
+i,
+strong,
+em,
+blockquote,
+p,
+q,
+span,
+figure,
+img,
+h1,
+h2,
+header,
+input,
+a,
+tr,
+td,
+form button,
+input[type="submit"],
+.btn,
+#goog-wm-sb,
+.highlight,
+.archive__item-teaser {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out
 }
@@ -376,7 +477,10 @@ b,i,strong,em,blockquote,p,q,span,figure,img,h1,h2,header,input,a,tr,td,form but
     opacity: 0
 }
 
-.visually-hidden,.screen-reader-text,.screen-reader-text span,.screen-reader-shortcut {
+.visually-hidden,
+.screen-reader-text,
+.screen-reader-text span,
+.screen-reader-shortcut {
     position: absolute !important;
     clip: rect(1px, 1px, 1px, 1px);
     height: 1px !important;
@@ -385,11 +489,14 @@ b,i,strong,em,blockquote,p,q,span,figure,img,h1,h2,header,input,a,tr,td,form but
     overflow: hidden
 }
 
-body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visually-hidden button {
+body:hover .visually-hidden a,
+body:hover .visually-hidden input,
+body:hover .visually-hidden button {
     display: none !important
 }
 
-.screen-reader-text:focus,.screen-reader-shortcut:focus {
+.screen-reader-text:focus,
+.screen-reader-shortcut:focus {
     clip: auto !important;
     height: auto !important;
     width: auto !important;
@@ -400,14 +507,14 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     background: #fff;
     z-index: 100000;
     text-decoration: none;
-    box-shadow: 0 0 2px 2px rgba(0,0,0,0.6)
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6)
 }
 
 .skip-link {
     position: fixed;
     z-index: 20;
     margin: 0;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     white-space: nowrap
 }
 
@@ -461,7 +568,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
 
 @media (min-width: 37.5em) {
     .align-left {
-        float:left;
+        float: left;
         margin-right: 1em
     }
 }
@@ -474,7 +581,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
 
 @media (min-width: 37.5em) {
     .align-right {
-        float:right;
+        float: right;
         margin-left: 1em
     }
 }
@@ -487,7 +594,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
 
 @media (min-width: 57.8125em) {
     .full {
-        margin-right:-19.4915254237% !important
+        margin-right: -19.4915254237% !important
     }
 }
 
@@ -506,7 +613,8 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     color: #000
 }
 
-.social-icons .fa-behance,.social-icons .fa-behance-square {
+.social-icons .fa-behance,
+.social-icons .fa-behance-square {
     color: #1769FF
 }
 
@@ -514,7 +622,8 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     color: #ea4c89
 }
 
-.social-icons .fa-facebook,.social-icons .fa-facebook-square {
+.social-icons .fa-facebook,
+.social-icons .fa-facebook-square {
     color: #3b5998
 }
 
@@ -526,11 +635,14 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     color: #0072b1
 }
 
-.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square {
+.social-icons .fa-github,
+.social-icons .fa-github-alt,
+.social-icons .fa-github-square {
     color: #171516
 }
 
-.social-icons .fa-google-plus,.social-icons .fa-google-plus-square {
+.social-icons .fa-google-plus,
+.social-icons .fa-google-plus-square {
     color: #dd4b39
 }
 
@@ -538,19 +650,24 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     color: #517fa4
 }
 
-.social-icons .fa-lastfm,.social-icons .fa-lastfm-square {
+.social-icons .fa-lastfm,
+.social-icons .fa-lastfm-square {
     color: #d51007
 }
 
-.social-icons .fa-linkedin,.social-icons .fa-linkedin-square {
+.social-icons .fa-linkedin,
+.social-icons .fa-linkedin-square {
     color: #007bb6
 }
 
-.social-icons .fa-pinterest,.social-icons .fa-pinterest-p,.social-icons .fa-pinterest-square {
+.social-icons .fa-pinterest,
+.social-icons .fa-pinterest-p,
+.social-icons .fa-pinterest-square {
     color: #cb2027
 }
 
-.social-icons .fa-rss,.social-icons .fa-rss-square {
+.social-icons .fa-rss,
+.social-icons .fa-rss-square {
     color: #fa9b39
 }
 
@@ -558,19 +675,23 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     color: #f30
 }
 
-.social-icons .fa-stack-exchange,.social-icons .fa-stack-overflow {
+.social-icons .fa-stack-exchange,
+.social-icons .fa-stack-overflow {
     color: #fe7a15
 }
 
-.social-icons .fa-tumblr,.social-icons .fa-tumblr-square {
+.social-icons .fa-tumblr,
+.social-icons .fa-tumblr-square {
     color: #32506d
 }
 
-.social-icons .fa-twitter,.social-icons .fa-twitter-square {
+.social-icons .fa-twitter,
+.social-icons .fa-twitter-square {
     color: #55acee
 }
 
-.social-icons .fa-vimeo,.social-icons .fa-vimeo-square {
+.social-icons .fa-vimeo,
+.social-icons .fa-vimeo-square {
     color: #1ab7ea
 }
 
@@ -578,11 +699,14 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     color: #00bf8f
 }
 
-.social-icons .fa-youtube,.social-icons .fa-youtube-square,.social-icons .fa-youtube-play {
+.social-icons .fa-youtube,
+.social-icons .fa-youtube-square,
+.social-icons .fa-youtube-play {
     color: #b00
 }
 
-.social-icons .fa-xing,.social-icons .fa-xing-square {
+.social-icons .fa-xing,
+.social-icons .fa-xing-square {
     color: #006567
 }
 
@@ -596,7 +720,8 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     transition: 0.3s
 }
 
-.navicon:before,.navicon:after {
+.navicon:before,
+.navicon:after {
     content: "";
     position: absolute;
     left: 0;
@@ -619,7 +744,8 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     background: transparent
 }
 
-.close .navicon:before,.close .navicon:after {
+.close .navicon:before,
+.close .navicon:after {
     -webkit-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
@@ -639,7 +765,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
 
 @media (min-width: 57.8125em) {
     .sticky {
-        clear:both;
+        clear: both;
         position: -webkit-sticky;
         position: sticky;
         top: 2em
@@ -663,7 +789,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     background-color: #f5f5f5;
     border: 1px solid #e3e3e3;
     border-radius: 4px;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05)
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05)
 }
 
 .show-modal {
@@ -679,7 +805,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     width: 100%;
     height: 100%;
     z-index: 999;
-    background-color: rgba(255,255,255,0.85)
+    background-color: rgba(255, 255, 255, 0.85)
 }
 
 .show-modal .modal {
@@ -699,7 +825,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     background: #fff;
     border: 1px solid #f2f3f3;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.125)
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125)
 }
 
 .modal__title {
@@ -725,7 +851,9 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     color: #9ba1a6
 }
 
-.footnotes ol,.footnotes li,.footnotes p {
+.footnotes ol,
+.footnotes li,
+.footnotes p {
     margin-bottom: 0;
     font-size: .75em
 }
@@ -767,7 +895,7 @@ a.reversefootnote:hover {
 table {
     margin-bottom: 1em;
     width: 100%;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em;
     border-collapse: collapse;
     border: 1px solid #bdc1c4
@@ -795,16 +923,19 @@ td {
     border-right: 1px solid #bdc1c4
 }
 
-tr,td,th {
+tr,
+td,
+th {
     vertical-align: middle
 }
 
-.btn,#goog-wm-sb {
+.btn,
+#goog-wm-sb {
     display: inline-block;
     margin-bottom: 0.25em;
     padding: 0.5em 1em;
     color: #fff !important;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em;
     font-weight: bold;
     text-align: center;
@@ -815,15 +946,18 @@ tr,td,th {
     cursor: pointer
 }
 
-.btn:hover,#goog-wm-sb:hover {
+.btn:hover,
+#goog-wm-sb:hover {
     background-color: #333
 }
 
-.btn .icon,#goog-wm-sb .icon {
+.btn .icon,
+#goog-wm-sb .icon {
     margin-right: 0.5em
 }
 
-.btn .icon+.hidden,#goog-wm-sb .icon+.hidden {
+.btn .icon+.hidden,
+#goog-wm-sb .icon+.hidden {
     margin-left: -0.5em
 }
 
@@ -939,12 +1073,12 @@ tr,td,th {
 .notice {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #f8f9f9;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(189,193,196,0.25)
+    box-shadow: 0 1px 1px rgba(189, 193, 196, 0.25)
 }
 
 .notice h4 {
@@ -985,12 +1119,12 @@ tr,td,th {
 .notice--primary {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #f2f3f3;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(122,130,136,0.25)
+    box-shadow: 0 1px 1px rgba(122, 130, 136, 0.25)
 }
 
 .notice--primary h4 {
@@ -1031,12 +1165,12 @@ tr,td,th {
 .notice--info {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #ecf3f6;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(65,138,160,0.25)
+    box-shadow: 0 1px 1px rgba(65, 138, 160, 0.25)
 }
 
 .notice--info h4 {
@@ -1077,12 +1211,12 @@ tr,td,th {
 .notice--warning {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #fef4e6;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(248,148,6,0.25)
+    box-shadow: 0 1px 1px rgba(248, 148, 6, 0.25)
 }
 
 .notice--warning h4 {
@@ -1123,12 +1257,12 @@ tr,td,th {
 .notice--success {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #eff9ef;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(98,196,98,0.25)
+    box-shadow: 0 1px 1px rgba(98, 196, 98, 0.25)
 }
 
 .notice--success h4 {
@@ -1169,12 +1303,12 @@ tr,td,th {
 .notice--danger {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #fdefef;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(238,95,91,0.25)
+    box-shadow: 0 1px 1px rgba(238, 95, 91, 0.25)
 }
 
 .notice--danger h4 {
@@ -1213,14 +1347,15 @@ tr,td,th {
 }
 
 .masthead {
-    position: center;
-    text-align: center; /* Ensure text is centered */
+    position: relative;
+    text-align: center;
+    /* Ensure text is centered */
     border-bottom: 1px solid #f2f3f3;
     -webkit-animation: intro 0.3s both;
     animation: intro 0.3s both;
     -webkit-animation-delay: 0.15s;
     animation-delay: 0.15s;
-    z-index: 20
+    z-index: 10;
 }
 
 .masthead__inner-wrap {
@@ -1229,7 +1364,7 @@ tr,td,th {
     margin-right: auto;
     clear: both;
     padding: 1em 1em 1em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif
 }
 
 
@@ -1248,7 +1383,7 @@ tr,td,th {
 @media (min-width: 80em) {
     .masthead__inner-wrap {
         width: 120%;
-        max-width:1350px
+        max-width: 1350px
     }
 }
 
@@ -1279,6 +1414,62 @@ tr,td,th {
     font-weight: 900;
 }
 
+/* Dropdown Menu Styles */
+.masthead__menu-item.dropdown {
+    position: relative;
+    z-index: 100;
+}
+
+.masthead__menu-item .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    min-width: 180px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    z-index: 999;
+    list-style: none;
+}
+
+.dropdown-menu {
+    z-index: 9999;
+    /* Ensures it's on top of everything else */
+}
+
+.masthead__menu-item .dropdown-menu li {
+    display: block;
+    margin: 0;
+    padding: 0
+}
+
+.masthead__menu-item .dropdown-menu li a {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    color: #10500c;
+    font-weight: normal;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.masthead__menu-item .dropdown-menu li a:hover {
+    background-color: #f2f3f3;
+}
+
+/* Show dropdown on hover */
+.masthead__menu-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.hidden-links .dropdown .dropdown-menu {
+    position: relative;
+}
+
+
 .breadcrumbs {
     max-width: 1025px;
     margin-left: auto;
@@ -1288,7 +1479,7 @@ tr,td,th {
     margin-bottom: 0;
     padding-left: 2em;
     padding-right: 2em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     -webkit-animation: intro 0.3s both;
     animation: intro 0.3s both;
     -webkit-animation-delay: 0.30s;
@@ -1309,14 +1500,14 @@ tr,td,th {
 
 @media (min-width: 57.8125em) {
     .breadcrumbs {
-        padding-left:1em;
+        padding-left: 1em;
         padding-right: 1em
     }
 }
 
 @media (min-width: 80em) {
     .breadcrumbs {
-        max-width:1280px
+        max-width: 1280px
     }
 }
 
@@ -1328,7 +1519,7 @@ tr,td,th {
 
 @media (min-width: 57.8125em) {
     .breadcrumbs ol {
-        width:83.0508474576%;
+        width: 83.0508474576%;
         float: right;
         margin-right: 0
     }
@@ -1336,7 +1527,7 @@ tr,td,th {
 
 @media (min-width: 80em) {
     .breadcrumbs ol {
-        padding-left:4.2372881356%
+        padding-left: 4.2372881356%
     }
 }
 
@@ -1369,7 +1560,7 @@ tr,td,th {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif
 }
 
 .pagination li {
@@ -1381,7 +1572,7 @@ tr,td,th {
 .pagination li a {
     margin-bottom: 0.25em;
     padding: 0.5em 1em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
     line-height: 1.5;
@@ -1426,7 +1617,7 @@ tr,td,th {
     padding: 1em 2em;
     float: left;
     width: 50%;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -1457,7 +1648,11 @@ tr,td,th {
     cursor: not-allowed
 }
 
-.page__content+.pagination,.page__meta+.pagination,.comment__date+.pagination,.page__share+.pagination,.page__comments+.pagination {
+.page__content+.pagination,
+.page__meta+.pagination,
+.comment__date+.pagination,
+.page__share+.pagination,
+.page__comments+.pagination {
     margin-top: 2em;
     padding-top: 2em;
     border-top: 1px solid #f2f3f3
@@ -1475,6 +1670,10 @@ tr,td,th {
     padding: 0.5rem 0;
     color: rgb(16, 80, 12);
     text-decoration: none
+}
+
+.greedy-nav .dropdown-menu a {
+    margin: 0 !important;
 }
 
 .greedy-nav a:hover {
@@ -1518,6 +1717,15 @@ tr,td,th {
     position: relative
 }
 
+/* Fix dropdown layout */
+/* .greedy-nav .visible-links li.dropdown {
+    display: block;
+} */
+
+.greedy-nav .visible-links li.dropdown .dropdown-menu li {
+    display: block;
+}
+
 .greedy-nav .visible-links a:before {
     content: "";
     position: absolute;
@@ -1544,11 +1752,12 @@ tr,td,th {
     top: 100%;
     right: 0;
     margin-top: 15px;
+    width: 100%;
     padding: 5px;
     border: 1px solid #f2f3f3;
     border-radius: 4px;
     background: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.25)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25)
 }
 
 .greedy-nav .hidden-links a {
@@ -1632,7 +1841,7 @@ tr,td,th {
 .nav__title {
     margin: 0;
     padding: 0.5rem 1rem;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: 1em;
     font-weight: bold
 }
@@ -1641,7 +1850,7 @@ tr,td,th {
     display: block;
     margin: 0.5rem 0;
     padding: 0.5rem 0;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em;
     font-weight: bold;
     text-transform: uppercase;
@@ -1649,14 +1858,14 @@ tr,td,th {
 }
 
 .toc {
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     color: #7a8288;
     text-transform: uppercase;
     letter-spacing: 1px;
     background-color: #fff;
     border: 1px solid #f2f3f3;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.125)
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125)
 }
 
 .toc .nav__title {
@@ -1705,7 +1914,7 @@ tr,td,th {
 
 @media (min-width: 48em) {
     .toc__menu li>ul li {
-        display:block
+        display: block
     }
 }
 
@@ -1752,7 +1961,7 @@ tr,td,th {
 
 @media (min-width: 80em) {
     .page__footer footer {
-        max-width:1280px
+        max-width: 1280px
     }
 }
 
@@ -1765,12 +1974,15 @@ tr,td,th {
     text-decoration: underline
 }
 
-.page__footer .fas,.page__footer .fab,.page__footer .far,.page__footer .fal {
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far,
+.page__footer .fal {
     color: #9ba1a6
 }
 
 .page__footer-copyright {
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .6875em
 }
 
@@ -1784,7 +1996,7 @@ tr,td,th {
     display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em;
     text-transform: uppercase
 }
@@ -1803,17 +2015,19 @@ tr,td,th {
     white-space: nowrap
 }
 
-div.highlighter-rouge,figure.highlight {
+div.highlighter-rouge,
+figure.highlight {
     position: relative;
     margin-bottom: 1em;
     padding: 1em;
     border: 1px solid #f2f3f3;
     border-radius: 4px;
     background-color: #fafafa;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.125)
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125)
 }
 
-div.highlighter-rouge:before,figure.highlight:before {
+div.highlighter-rouge:before,
+figure.highlight:before {
     position: absolute;
     top: 0;
     right: 0;
@@ -1827,9 +2041,10 @@ div.highlighter-rouge:before,figure.highlight:before {
     speak: none
 }
 
-div.highlighter-rouge .highlight,figure.highlight .highlight {
+div.highlighter-rouge .highlight,
+figure.highlight .highlight {
     margin: 0;
-    font-family: Monaco,Consolas,"Lucida Console",monospace;
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
     font-size: .6875em;
     line-height: 1.8
 }
@@ -2152,14 +2367,21 @@ form br {
     display: none
 }
 
-label,input,button,select,textarea {
+label,
+input,
+button,
+select,
+textarea {
     vertical-align: baseline;
     *vertical-align: middle
 }
 
-input,button,select,textarea {
+input,
+button,
+select,
+textarea {
     box-sizing: border-box;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif
 }
 
 label {
@@ -2173,11 +2395,15 @@ label small {
     font-size: .75em
 }
 
-label input,label textarea,label select {
+label input,
+label textarea,
+label select {
     display: block
 }
 
-input,textarea,select {
+input,
+textarea,
+select {
     display: inline-block;
     width: 100%;
     padding: 0.25em;
@@ -2186,10 +2412,12 @@ input,textarea,select {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.125)
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125)
 }
 
-input:hover,textarea:hover,select:hover {
+input:hover,
+textarea:hover,
+select:hover {
     border-color: #bdc1c4
 }
 
@@ -2201,7 +2429,9 @@ input:hover,textarea:hover,select:hover {
     width: 90px
 }
 
-input[type="image"],input[type="checkbox"],input[type="radio"] {
+input[type="image"],
+input[type="checkbox"],
+input[type="radio"] {
     width: auto;
     height: auto;
     padding: 0;
@@ -2213,7 +2443,8 @@ input[type="image"],input[type="checkbox"],input[type="radio"] {
     border: 0 \9
 }
 
-input[type="checkbox"],input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
     box-sizing: border-box;
     padding: 0;
     *width: 13px;
@@ -2235,14 +2466,17 @@ input[type="file"] {
     box-shadow: none
 }
 
-input[type="button"],input[type="reset"],input[type="submit"] {
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
     width: auto;
     height: auto;
     cursor: pointer;
     *overflow: visible
 }
 
-select,input[type="file"] {
+select,
+input[type="file"] {
     *margin-top: 4px
 }
 
@@ -2251,7 +2485,8 @@ select {
     background-color: #fff
 }
 
-select[multiple],select[size] {
+select[multiple],
+select[size] {
     height: auto
 }
 
@@ -2270,43 +2505,57 @@ input[type="hidden"] {
     position: relative
 }
 
-.radio,.checkbox {
+.radio,
+.checkbox {
     padding-left: 18px;
     font-weight: normal
 }
 
-.radio input[type="radio"],.checkbox input[type="checkbox"] {
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
     float: left;
     margin-left: -18px
 }
 
-.radio.inline,.checkbox.inline {
+.radio.inline,
+.checkbox.inline {
     display: inline-block;
     padding-top: 5px;
     margin-bottom: 0;
     vertical-align: middle
 }
 
-.radio.inline+.radio.inline,.checkbox.inline+.checkbox.inline {
+.radio.inline+.radio.inline,
+.checkbox.inline+.checkbox.inline {
     margin-left: 10px
 }
 
-input[disabled],select[disabled],textarea[disabled],input[readonly],select[readonly],textarea[readonly] {
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
     opacity: 0.5;
     cursor: not-allowed
 }
 
-input:focus,textarea:focus {
+input:focus,
+textarea:focus {
     border-color: #7a8288;
     outline: 0;
     outline: thin dotted \9
 }
 
-input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,select:focus {
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus,
+select:focus {
     box-shadow: none
 }
 
-.help-block,.help-inline {
+.help-block,
+.help-inline {
     color: #418aa0
 }
 
@@ -2322,7 +2571,9 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     padding-left: 5px
 }
 
-.form-inline input,.form-inline textarea,.form-inline select {
+.form-inline input,
+.form-inline textarea,
+.form-inline select {
     display: inline-block;
     margin-bottom: 0
 }
@@ -2331,19 +2582,24 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     display: inline-block
 }
 
-.form-inline .radio,.form-inline .checkbox,.form-inline .radio {
+.form-inline .radio,
+.form-inline .checkbox,
+.form-inline .radio {
     padding-left: 0;
     margin-bottom: 0;
     vertical-align: middle
 }
 
-.form-inline .radio input[type="radio"],.form-inline .checkbox input[type="checkbox"] {
+.form-inline .radio input[type="radio"],
+.form-inline .checkbox input[type="checkbox"] {
     float: left;
     margin-left: 0;
     margin-right: 3px
 }
 
-.form-search input,.form-search textarea,.form-search select {
+.form-search input,
+.form-search textarea,
+.form-search select {
     display: inline-block;
     margin-bottom: 0
 }
@@ -2359,13 +2615,16 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     display: inline-block
 }
 
-.form-search .radio,.form-search .checkbox,.form-inline .radio {
+.form-search .radio,
+.form-search .checkbox,
+.form-inline .radio {
     padding-left: 0;
     margin-bottom: 0;
     vertical-align: middle
 }
 
-.form-search .radio input[type="radio"],.form-search .checkbox input[type="checkbox"] {
+.form-search .radio input[type="radio"],
+.form-search .checkbox input[type="checkbox"] {
     float: left;
     margin-left: 0;
     margin-right: 3px
@@ -2385,7 +2644,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     z-index: 10
 }
 
@@ -2448,13 +2707,13 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 80em) {
     #main {
-        max-width:1280px
+        max-width: 1280px
     }
 }
 
 @media (min-width: 57.8125em) {
     .page {
-        width:83.0508474576%;
+        width: 83.0508474576%;
         float: right;
         margin-right: 0;
         padding-left: 4.2372881356%;
@@ -2470,7 +2729,10 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     margin-right: 0
 }
 
-.page .page__inner-wrap .page__content,.page .page__inner-wrap .page__meta,.page .page__inner-wrap .comment__date,.page .page__inner-wrap .page__share {
+.page .page__inner-wrap .page__content,
+.page .page__inner-wrap .page__meta,
+.page .page__inner-wrap .comment__date,
+.page .page__inner-wrap .page__share {
     clear: both;
     width: 100%;
     float: left;
@@ -2483,12 +2745,13 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     line-height: 1
 }
 
-.page__title+.page__meta,.page__title+.comment__date {
+.page__title+.page__meta,
+.page__title+.comment__date {
     margin-top: -0.5em
 }
 
 .page__lead {
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: 1.25em
 }
 
@@ -2497,7 +2760,9 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     border-bottom: 1px solid #f2f3f3
 }
 
-.page__content p,.page__content li,.page__content dl {
+.page__content p,
+.page__content li,
+.page__content dl {
     font-size: 1em
 }
 
@@ -2514,18 +2779,18 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 }
 
 .page__content a:hover img {
-    box-shadow: 0 0 10px rgba(0,0,0,0.25)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25)
 }
 
 .page__content dt {
     margin-top: 1em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-weight: bold
 }
 
 .page__content dd {
     margin-left: 1em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em
 }
 
@@ -2581,13 +2846,18 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 80em) {
     .page__hero--overlay .wrapper {
-        max-width:1280px
+        max-width: 1280px
     }
 }
 
-.page__hero--overlay .page__title,.page__hero--overlay .page__meta,.page__hero--overlay .comment__date,.page__hero--overlay .page__lead,.page__hero--overlay .btn,.page__hero--overlay #goog-wm-sb {
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__meta,
+.page__hero--overlay .comment__date,
+.page__hero--overlay .page__lead,
+.page__hero--overlay .btn,
+.page__hero--overlay #goog-wm-sb {
     color: #fff;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5)
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5)
 }
 
 .page__hero--overlay .page__lead {
@@ -2600,7 +2870,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 37.5em) {
     .page__hero--overlay .page__title {
-        font-size:2.441em
+        font-size: 2.441em
     }
 }
 
@@ -2617,7 +2887,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     margin: 0 auto;
     padding: 2px 5px;
     color: #fff;
-    font-family: Georgia,Times,serif;
+    font-family: Georgia, Times, serif;
     font-size: .6875em;
     background: #000;
     text-align: right;
@@ -2628,7 +2898,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .page__hero-caption {
-        padding:5px 10px
+        padding: 5px 10px
     }
 }
 
@@ -2644,8 +2914,10 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 }
 
 @media (max-width: 37.5em) {
-    .page__share .btn span,.page__share #goog-wm-sb span {
-        border:0;
+
+    .page__share .btn span,
+    .page__share #goog-wm-sb span {
+        border: 0;
         clip: rect(0 0 0 0);
         height: 1px;
         margin: -1px;
@@ -2662,18 +2934,21 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     text-transform: uppercase
 }
 
-.page__meta,.comment__date {
+.page__meta,
+.comment__date {
     margin-top: 2em;
     color: #9ba1a6;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em
 }
 
-.page__meta p,.comment__date p {
+.page__meta p,
+.comment__date p {
     margin: 0
 }
 
-.page__meta a,.comment__date a {
+.page__meta a,
+.comment__date a {
     color: inherit
 }
 
@@ -2729,7 +3004,10 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     transition: all 0.2s ease-in-out
 }
 
-.page__comments-form.disabled input,.page__comments-form.disabled button,.page__comments-form.disabled textarea,.page__comments-form.disabled label {
+.page__comments-form.disabled input,
+.page__comments-form.disabled button,
+.page__comments-form.disabled textarea,
+.page__comments-form.disabled label {
     pointer-events: none;
     cursor: not-allowed;
     filter: alpha(opacity=65);
@@ -2760,7 +3038,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .comment__avatar-wrapper {
-        width:100px;
+        width: 100px;
         height: 100px
     }
 }
@@ -2773,7 +3051,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .comment__avatar {
-        width:80px;
+        width: 80px;
         height: 80px;
         padding: 5px;
         border: 1px solid #f2f3f3
@@ -2787,7 +3065,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .comment__content-wrapper {
-        width:calc(100% - 100px)
+        width: calc(100% - 100px)
     }
 }
 
@@ -2823,7 +3101,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .page__related {
-        margin-left:21.186440678%
+        margin-left: 21.186440678%
     }
 }
 
@@ -2844,7 +3122,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 48em) {
     .archive {
-        width:100%;
+        width: 100%;
         float: left;
         margin-left: 0;
         margin-right: 0
@@ -2853,7 +3131,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .archive {
-        width:83.0508474576%;
+        width: 83.0508474576%;
         float: right;
         margin-right: 0;
         padding-left: 4.2372881356%
@@ -2869,7 +3147,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 }
 
 .archive a:hover img {
-    box-shadow: 0 0 10px rgba(0,0,0,0.25)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25)
 }
 
 .archive__subtitle {
@@ -2886,7 +3164,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 .archive__item-title {
     margin-bottom: 0.25em;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif
 }
 
 .archive__item-title a+a {
@@ -2917,7 +3195,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 }
 
 .archive__item:hover .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(0,0,0,0.25)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25)
 }
 
 .archive__item:hover .archive__item-title {
@@ -2926,23 +3204,24 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 48em) {
     .list__item {
-        padding-right:0px
+        padding-right: 0px
     }
 }
 
 @media (min-width: 57.8125em) {
     .list__item {
-        padding-right:0px
+        padding-right: 0px
     }
 }
 
 @media (min-width: 80em) {
     .list__item {
-        padding-right:0px
+        padding-right: 0px
     }
 }
 
-.list__item .page__meta,.list__item .comment__date {
+.list__item .page__meta,
+.list__item .comment__date {
     margin: 0 0 4px
 }
 
@@ -2950,7 +3229,8 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     margin-bottom: 2em
 }
 
-.grid__item .page__meta,.grid__item .comment__date {
+.grid__item .page__meta,
+.grid__item .comment__date {
     margin: 0 0 4px
 }
 
@@ -2965,7 +3245,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 37.5em) {
     .grid__item {
-        width:48.9795918367%;
+        width: 48.9795918367%;
         float: left
     }
 
@@ -2989,7 +3269,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 48em) {
     .grid__item {
-        margin-left:0;
+        margin-left: 0;
         margin-right: 0;
         width: 23.4693877551%;
         float: left
@@ -3049,7 +3329,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 37.5em) {
     .feature__item {
-        margin-bottom:0;
+        margin-bottom: 0;
         width: 32.2033898305%;
         float: left
     }
@@ -3094,7 +3374,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 37.5em) {
     .feature__item--left .archive__item-teaser {
-        width:40.6779661017%;
+        width: 40.6779661017%;
         float: left;
         margin-right: 1.6949152542%
     }
@@ -3123,7 +3403,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 37.5em) {
     .feature__item--right {
-        text-align:right
+        text-align: right
     }
 
     .feature__item--right .archive__item-teaser {
@@ -3156,7 +3436,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 37.5em) {
     .feature__item--center {
-        text-align:center
+        text-align: center
     }
 
     .feature__item--center .archive__item-teaser {
@@ -3185,7 +3465,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .sidebar {
-        width:15.2542372881%;
+        width: 15.2542372881%;
         float: left;
         margin-right: 1.6949152542%;
         opacity: 1;
@@ -3200,21 +3480,27 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 80em) {
     .sidebar {
-        padding-right:0
+        padding-right: 0
     }
 }
 
-.sidebar h2,.sidebar h3,.sidebar h4,.sidebar h5,.sidebar h6 {
+.sidebar h2,
+.sidebar h3,
+.sidebar h4,
+.sidebar h5,
+.sidebar h6 {
     margin-bottom: 0;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif
 }
 
-.sidebar h3,.sidebar h4 {
+.sidebar h3,
+.sidebar h4 {
     font-size: 1em
 }
 
-.sidebar p,.sidebar li {
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+.sidebar p,
+.sidebar li {
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em;
     line-height: 1.5
 }
@@ -3229,7 +3515,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .sidebar__right {
-        position:relative;
+        position: relative;
         float: right;
         width: 0px;
         margin-left: 2.5423728814%;
@@ -3239,19 +3525,19 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 80em) {
     .sidebar__right {
-        width:0px
+        width: 0px
     }
 }
 
 .author__avatar {
     display: table-cell;
     vertical-align: top;
-    width: 36px    
+    width: 36px
 }
 
 @media (min-width: 57.8125em) {
     .author__avatar {
-        display:block;
+        display: block;
         width: auto;
         height: auto
     }
@@ -3264,7 +3550,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .author__avatar img {
-        padding:10px;
+        padding: 10px;
         border: 1px solid #f2f3f3
     }
 }
@@ -3279,7 +3565,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .author__content {
-        display:block;
+        display: block;
         width: 100%;
         padding-left: 0;
         padding-right: 0
@@ -3292,13 +3578,13 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .author__name {
-        margin-top:0px;
+        margin-top: 0px;
         margin-bottom: 10px
     }
 }
 
 .sidebar .author__name {
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: 1em
 }
 
@@ -3308,7 +3594,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .author__bio {
-        margin-top:0px;
+        margin-top: 0px;
         margin-bottom: 20px
     }
 }
@@ -3317,7 +3603,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     position: relative;
     display: table-cell;
     vertical-align: middle;
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     z-index: 10;
     position: relative;
     cursor: pointer
@@ -3329,7 +3615,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .author__urls-wrapper {
-        display:block
+        display: block
     }
 }
 
@@ -3339,7 +3625,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .author__urls-wrapper button {
-        display:none
+        display: none
     }
 }
 
@@ -3354,13 +3640,13 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     border-radius: 4px;
     background: #fff;
     z-index: -1;
-    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     cursor: default
 }
 
 @media (min-width: 57.8125em) {
     .author__urls {
-        display:block;
+        display: block;
         position: relative;
         margin: 0;
         padding: 0;
@@ -3385,7 +3671,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .author__urls:before {
-        display:none
+        display: none
     }
 }
 
@@ -3404,7 +3690,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 57.8125em) {
     .author__urls:after {
-        display:none
+        display: none
     }
 }
 
@@ -3431,7 +3717,11 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
  * Font Awesome Free 5.5.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-.fa,.fas,.far,.fal,.fab {
+.fa,
+.fas,
+.far,
+.fal,
+.fab {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -3532,11 +3822,19 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     float: right
 }
 
-.fa.fa-pull-left,.fas.fa-pull-left,.far.fa-pull-left,.fal.fa-pull-left,.fab.fa-pull-left {
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
     margin-right: .3em
 }
 
-.fa.fa-pull-right,.fas.fa-pull-right,.far.fa-pull-right,.fal.fa-pull-right,.fab.fa-pull-right {
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
     margin-left: .3em
 }
 
@@ -3588,7 +3886,11 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     transform: scale(-1, -1)
 }
 
-:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical {
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
     filter: none
 }
 
@@ -3601,7 +3903,8 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     width: 2.5em
 }
 
-.fa-stack-1x,.fa-stack-2x {
+.fa-stack-1x,
+.fa-stack-2x {
     left: 0;
     position: absolute;
     text-align: center;
@@ -8667,7 +8970,8 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     width: 1px
 }
 
-.sr-only-focusable:active,.sr-only-focusable:focus {
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -8685,10 +8989,11 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     font-style: normal;
     font-weight: 900;
     src: url("../fonts/fa-solid-900.eot");
-    src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),url("../fonts/fa-solid-900.woff2") format("woff2"),url("../fonts/fa-solid-900.woff") format("woff"),url("../fonts/fa-solid-900.ttf") format("truetype"),url("../fonts/fa-solid-900.svg#fontawesome") format("svg")
+    src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.ttf") format("truetype"), url("../fonts/fa-solid-900.svg#fontawesome") format("svg")
 }
 
-.fa,.fas {
+.fa,
+.fas {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900
 }
@@ -8702,7 +9007,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     font-style: normal;
     font-weight: normal;
     src: url("../fonts/fa-brands-400.eot");
-    src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),url("../fonts/fa-brands-400.woff2") format("woff2"),url("../fonts/fa-brands-400.woff") format("woff"),url("../fonts/fa-brands-400.ttf") format("truetype"),url("../fonts/fa-brands-400.svg#fontawesome") format("svg")
+    src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.ttf") format("truetype"), url("../fonts/fa-brands-400.svg#fontawesome") format("svg")
 }
 
 .fab {
@@ -8710,7 +9015,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 }
 
 .mfp-counter {
-    font-family: Georgia,Times,serif
+    font-family: Georgia, Times, serif
 }
 
 .mfp-bg {
@@ -8770,7 +9075,8 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     z-index: 1045
 }
 
-.mfp-inline-holder .mfp-content,.mfp-ajax-holder .mfp-content {
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
     width: 100%;
     cursor: auto
 }
@@ -8779,7 +9085,8 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     cursor: progress
 }
 
-.mfp-zoom-out-cur,.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
     cursor: -moz-zoom-out;
     cursor: -webkit-zoom-out;
     cursor: zoom-out
@@ -8796,7 +9103,10 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     cursor: auto
 }
 
-.mfp-close,.mfp-arrow,.mfp-preloader,.mfp-counter {
+.mfp-close,
+.mfp-arrow,
+.mfp-preloader,
+.mfp-counter {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none
@@ -8838,7 +9148,8 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
     display: none
 }
 
-button.mfp-close,button.mfp-arrow {
+button.mfp-close,
+button.mfp-arrow {
     overflow: visible;
     cursor: pointer;
     background: transparent;
@@ -8872,10 +9183,11 @@ button::-moz-focus-inner {
     color: #fff;
     font-style: normal;
     font-size: 28px;
-    font-family: Georgia,Times,serif
+    font-family: Georgia, Times, serif
 }
 
-.mfp-close:hover,.mfp-close:focus {
+.mfp-close:hover,
+.mfp-close:focus {
     opacity: 1;
     filter: alpha(opacity=100)
 }
@@ -8888,7 +9200,8 @@ button::-moz-focus-inner {
     color: #fff
 }
 
-.mfp-image-holder .mfp-close,.mfp-iframe-holder .mfp-close {
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
     color: #fff;
     right: -6px;
     text-align: right;
@@ -8922,12 +9235,16 @@ button::-moz-focus-inner {
     margin-top: -54px
 }
 
-.mfp-arrow:hover,.mfp-arrow:focus {
+.mfp-arrow:hover,
+.mfp-arrow:focus {
     opacity: 1;
     filter: alpha(opacity=100)
 }
 
-.mfp-arrow:before,.mfp-arrow:after,.mfp-arrow .mfp-b,.mfp-arrow .mfp-a {
+.mfp-arrow:before,
+.mfp-arrow:after,
+.mfp-arrow .mfp-b,
+.mfp-arrow .mfp-a {
     content: '';
     display: block;
     width: 0;
@@ -8940,13 +9257,15 @@ button::-moz-focus-inner {
     border: medium inset transparent
 }
 
-.mfp-arrow:after,.mfp-arrow .mfp-a {
+.mfp-arrow:after,
+.mfp-arrow .mfp-a {
     border-top-width: 13px;
     border-bottom-width: 13px;
     top: 8px
 }
 
-.mfp-arrow:before,.mfp-arrow .mfp-b {
+.mfp-arrow:before,
+.mfp-arrow .mfp-b {
     border-top-width: 21px;
     border-bottom-width: 21px;
     opacity: 0.7
@@ -8956,12 +9275,14 @@ button::-moz-focus-inner {
     left: 0
 }
 
-.mfp-arrow-left:after,.mfp-arrow-left .mfp-a {
+.mfp-arrow-left:after,
+.mfp-arrow-left .mfp-a {
     border-right: 17px solid #fff;
     margin-left: 31px
 }
 
-.mfp-arrow-left:before,.mfp-arrow-left .mfp-b {
+.mfp-arrow-left:before,
+.mfp-arrow-left .mfp-b {
     margin-left: 25px;
     border-right: 27px solid #fff
 }
@@ -8970,12 +9291,14 @@ button::-moz-focus-inner {
     right: 0
 }
 
-.mfp-arrow-right:after,.mfp-arrow-right .mfp-a {
+.mfp-arrow-right:after,
+.mfp-arrow-right .mfp-a {
     border-left: 17px solid #fff;
     margin-left: 39px
 }
 
-.mfp-arrow-right:before,.mfp-arrow-right .mfp-b {
+.mfp-arrow-right:before,
+.mfp-arrow-right .mfp-b {
     border-left: 27px solid #fff
 }
 
@@ -9008,7 +9331,7 @@ button::-moz-focus-inner {
     left: 0;
     width: 100%;
     height: 100%;
-    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: #000
 }
 
@@ -9040,7 +9363,7 @@ img.mfp-img {
     width: auto;
     height: auto;
     z-index: -1;
-    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: #444
 }
 
@@ -9085,9 +9408,10 @@ img.mfp-img {
     cursor: pointer
 }
 
-@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+@media screen and (max-width: 800px) and (orientation: landscape),
+screen and (max-height: 300px) {
     .mfp-img-mobile .mfp-image-holder {
-        padding-left:0;
+        padding-left: 0;
         padding-right: 0
     }
 
@@ -9106,7 +9430,7 @@ img.mfp-img {
     }
 
     .mfp-img-mobile .mfp-bottom-bar {
-        background: rgba(0,0,0,0.6);
+        background: rgba(0, 0, 0, 0.6);
         bottom: 0;
         margin: 0;
         top: auto;
@@ -9132,7 +9456,7 @@ img.mfp-img {
         width: 35px;
         height: 35px;
         line-height: 35px;
-        background: rgba(0,0,0,0.6);
+        background: rgba(0, 0, 0, 0.6);
         position: fixed;
         text-align: center;
         padding: 0
@@ -9141,7 +9465,7 @@ img.mfp-img {
 
 @media all and (max-width: 900px) {
     .mfp-arrow {
-        -webkit-transform:scale(0.75);
+        -webkit-transform: scale(0.75);
         transform: scale(0.75)
     }
 
@@ -9188,7 +9512,13 @@ img.mfp-img {
 }
 
 @media print {
-    .masthead,.toc,.page__share,.page__related,.ads,.page__footer {
+
+    .masthead,
+    .toc,
+    .page__share,
+    .page__related,
+    .ads,
+    .page__footer {
         display: none
     }
 }
