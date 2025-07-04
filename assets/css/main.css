@@ -1360,6 +1360,7 @@ th {
 
 .masthead__inner-wrap {
     max-width: 1200px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     clear: both;
@@ -1424,11 +1425,13 @@ th {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     margin: 0;
     padding: 0;
     min-width: 180px;
-    background: #fff;
+    background: #f1f1f1;
+    font-style: italic;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
     z-index: 999;
@@ -1441,7 +1444,8 @@ th {
 }
 
 .masthead__menu-item .dropdown-menu li {
-    display: block;
+    display: block;;
+    border-bottom: 1px solid #000;
     margin: 0;
     padding: 0
 }
@@ -1693,7 +1697,8 @@ th {
 }
 
 .greedy-nav .visible-links {
-    display: table
+    display: table;
+    margin: 0 auto;   
 }
 
 .greedy-nav .visible-links li {
